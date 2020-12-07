@@ -1,5 +1,7 @@
 Project 1: 8-Puzzle
+
 Date: Jul. 19, 2020
+
 Project Description   
 
 The A* search can be used to solve the 8-puzzle problem. As described in the book, 
