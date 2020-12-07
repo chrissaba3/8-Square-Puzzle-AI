@@ -1,5 +1,5 @@
-CS4200 -- Project 1: 8-Puzzle
-Due on: Jul. 19, 2020
+Project 1: 8-Puzzle
+Date: Jul. 19, 2020
 Project Description   
 
 The A* search can be used to solve the 8-puzzle problem. As described in the book, 
@@ -36,15 +36,16 @@ more than one occourance, as well as if the puzzle is solvable or not. If you us
 as well as a "failure" count which counts how many times a puzzle had to be remade due to it being unsolvable.
 
 A brief description of each java class is as follows.
-Main8P.java: Main driver program, keeps track of statistics and prints most statistics.
 
-StateNode.java: 
+- Main8P.java: Main driver program, keeps track of statistics and prints most statistics.
+
+- StateNode.java: 
 This is the class that considers the physics of the moves, such as swaps, moving up down left and right, next states, expanding current nodes, printing matrix, and creating new nodes.
 
-ASearch.java:
+- ASearch.java:
 The A* heuristic graph algorithm that calculates state costs, using 2 different heuristic functions mentioned above.
 
-PuzzleGen.java:
+- PuzzleGen.java:
 A puzzle generator that imports user input and allows the input to be checked for solvable, as well as correct formats and imports the arrays into StateNode, 
 to be later calculated using the A*Search class.
 
